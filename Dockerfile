@@ -1,5 +1,5 @@
 # Dockerfile development version
-FROM ruby:3.1.0 AS hera-development
+FROM ruby:3.1.0 AS atena-development
 
 ARG USER_ID
 ARG GROUP_ID
@@ -17,7 +17,7 @@ ENV INSTALL_PATH /opt/app
 RUN mkdir -p $INSTALL_PATH
 
 WORKDIR $INSTALL_PATH
-COPY hera/ .
+COPY atena/ .
 RUN rm -rf node_modules vendor
 RUN gem install rails bundler
 RUN bundle install

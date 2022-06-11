@@ -8,15 +8,15 @@ default: &default
 
 development:
   <<: *default
-  database: hera_development
+  database: atena_development
 
 
 test:
   <<: *default
-  database: hera_test
+  database: atena_test
 
 production:
   <<: *default
-  database: hera_production
-  username: hera
-  password: <%= ENV["hera_DATABASE_PASSWORD"] %>
+  database: atena_production
+  username: atena
+  password: <%= ENV["atena_DATABASE_PASSWORD"] %>

@@ -5,29 +5,29 @@
 #   git config --global core.excludesfile '~/.gitignore_global'
 
 # Ignore bundler config.
-hera/.bundle
+atena/.bundle
 
 # Ignore all logfiles and tempfiles.
-hera/log/*
-hera/tmp/*
+atena/log/*
+atena/tmp/*
 !log/.keep
 !tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-hera/tmp/pids/*
-!hera/tmp/pids/
-!hera/tmp/pids/.keep
+atena/tmp/pids/*
+!atena/tmp/pids/
+!atena/tmp/pids/.keep
 
 
-hera/public/assets
-hera/.byebug_history
+atena/public/assets
+atena/.byebug_history
 
 # Ignore master key for decrypting credentials and more.
-hera/config/master.key
+atena/config/master.key
 
-hera/public/packs
-hera/public/packs-test
-hera/node_modules
-hera/yarn-error.log
-hera/yarn-debug.log*
-hera/.yarn-integrity
+atena/public/packs
+atena/public/packs-test
+atena/node_modules
+atena/yarn-error.log
+atena/yarn-debug.log*
+atena/.yarn-integrity
